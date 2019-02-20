@@ -1,24 +1,18 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-
-### IntelliJ IDEA ###
+# For IntelliJ IDEA
 .idea
-*.iws
 *.iml
-*.ipr
+target
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+# For Spring Tool Suite(Eclipse)
+.project
+.classpath
+.settings
+.apt_generated
+.factorypath
+
+# For Others
+.DS_Store
+
+/application*.yml
+
+SqsCredentials.properties

@@ -1,12 +1,12 @@
-package com.devglan.userportal;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserPortalApplication {
+public class ProductoPortalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserPortalApplication.class, args);
+		SpringApplication.run(ProductoPortalApplication.class, args);
 	}
 }

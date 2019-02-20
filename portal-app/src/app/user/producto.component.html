@@ -1,14 +1,14 @@
 <div class="col-md-6">
-<h2> User Details</h2>
+<h2>Detalle</h2>
 
 <table class="table table-striped">
   <thead>
   <tr>
     <th class="hidden">Id</th>
-    <th>FirstName</th>
-    <th>LastName</th>
-    <th>Email</th>
-    <th>Action</th>
+    <th>Detalle</th>
+    <th>Nombre</th>
+    <th>Descripcion</th>
+    <th>Accion</th>
   </tr>
   </thead>
   <tbody>
@@ -17,7 +17,7 @@
     <td>{{user.firstName}}</td>
     <td>{{user.lastName}}</td>
     <td>{{user.email}}</td>
-    <td><button class="btn btn-danger" (click)="deleteUser(user)"> Delete User</button></td>
+    <td><button class="btn btn-danger" (click)="deleteUser(user)"> Eliminar Producto</button></td>
   </tr>
   </tbody>
 </table>

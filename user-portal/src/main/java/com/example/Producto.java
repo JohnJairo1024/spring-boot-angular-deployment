@@ -1,21 +1,21 @@
-package com.devglan.userportal;
+package com.example;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
-public class User {
+@Table(name = "producto")
+public class Producto {
 
     @Id
     @Column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column
-    private String firstName;
+    private String nombre;
     @Column
     private String lastName;
     @Column
-    private String email;
+    private String activo;
 
     public int getId() {
         return id;
@@ -25,12 +25,12 @@ public class User {
         this.id = id;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getLastName() {
@@ -41,11 +41,11 @@ public class User {
         this.lastName = lastName;
     }
 
-    public String getEmail() {
-        return email;
+    public String getActivo() {
+        return activo;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setActivo(String activo) {
+        this.activo = activo;
     }
 }

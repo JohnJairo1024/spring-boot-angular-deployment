@@ -1,0 +1,21 @@
+<div class="col-md-6">
+  <h2 class="text-center">Adicionar producto</h2>
+<form>
+  <div class="form-group">
+    <label for="email">Producto Detalle:</label>
+    <input type="email" [(ngModel)]="user.email" placeholder="Detalle" name="email" class="form-control" id="email">
+  </div>
+
+  <div class="form-group">
+    <label for="firstName">Nombre Producto:</label>
+    <input [(ngModel)]="user.firstName" placeholder="Nombre" name="firstName" class="form-control" id="firstName">
+  </div>
+
+  <div class="form-group">
+    <label for="lastName">Descripcion del producto:</label>
+    <input [(ngModel)]="user.lastName" placeholder="Descripcion" name="lastName" class="form-control" id="lastName">
+  </div>
+
+  <button class="btn btn-success" (click)="createUser()">Crear</button>
+</form>
+</div>

@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { User } from '../models/user.model';
-import { UserService } from './user.service';
+import { UserService } from './producto.service';
 
 @Component({
   selector: 'app-user',
-  templateUrl: './user.component.html',
+  templateUrl: './producto.component.html',
   styles: []
 })
-export class UserComponent implements OnInit {
+export class ProductoComponent implements OnInit {
 
   users: User[];
 
